@@ -1,0 +1,19 @@
+#navbar {
+  background-color: blanchedalmond;
+  top: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+#navbar h5 {
+  text-decoration: none;
+  
+}
+
+.footer {
+  background-color: #333;
+  color: white; 
+  padding: 20px; 
+  text-align: center; 
+}

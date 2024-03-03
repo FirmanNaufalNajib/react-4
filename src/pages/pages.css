@@ -1,0 +1,111 @@
+
+#menu-page{ 
+  border: solid blue;
+  width: 25vw;
+  display: grid;
+  place-items: center;
+
+}
+
+#container-menu {
+  display: flex;
+  gap: 5px;
+  margin: 10px;
+
+}
+
+/* pages.css */
+
+#register {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#register-title {
+  text-align: center;
+  color: #333;
+}
+
+#register input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#register input[type="text"],
+#register input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#register input[type="password"],
+#register input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#register input[type="password"]:focus,
+#register input[type="text"]:focus,
+#register input[type="email"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#register input::placeholder {
+  color: #999;
+}
+
+#register button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#register button:hover {
+  background-color: #0056b3;
+}
+
+
+/* add menu  */
+
+#addmenu h1 {
+  text-align: center;
+  color: #333;
+}
+
+#addmenu {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Warna latar belakang pada hover */
+}
+
+
+
